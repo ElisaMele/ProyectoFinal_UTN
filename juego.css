@@ -55,14 +55,12 @@ header .btn button {
     text-align: center;
 }
 
-
 h1 {
     color: #EEEEEE;
     font-size: 4rem;
     letter-spacing: 2px;
     text-shadow: 2px 2px grey, 6px 6px black;
 }
-
 
 h2 {
     color: #678983;
@@ -73,27 +71,32 @@ h2 {
 
 .footer {
     background-color: #678983;
-    padding: 30px;
     margin-top: 10rem;
-}
-
-.logo-footer {
-    width: 120px;
-
-}
-
-.footer-content {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    text-align: center;
+    padding: 3.5rem;
 }
-
+.logo-content {
+    display: flex;
+    align-items: center;
+}
+.logo-footer {
+    width: 130px;
+    margin-right: 15px;
+}
 .title-footer {
-    margin-bottom: 10px;
+    margin-left: 4rem;
     color: #181D31;
 }
-
+.title-footer span {
+    display: flex;
+    justify-content: center;
+}
 .pf-footer {
+    margin: 0;
+    text-align: right;
     color: #181D31;
+    font-size: 20px;
+    letter-spacing: 1px;
 }

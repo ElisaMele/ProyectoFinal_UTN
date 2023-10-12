@@ -142,27 +142,31 @@ h2 {
 .footer {
     background-color: #678983;
     margin-top: 10rem;
-}
-
-.logo-footer {
-    width: 10%;
-}
-
-.footer-content {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    text-align: center;
+    padding: 3.5rem;
 }
-
-.title-footer {
-    margin-bottom: 10px;
-    color: #181D31;
+.logo-content {
     display: flex;
-    flex-direction: column;
+    align-items: center;
+}
+.logo-footer {
+    width: 130px;
+    margin-right: 15px;
+}
+.title-footer {
+    margin-left: 4rem;
+    color: #181D31;
+}
+.title-footer span {
+    display: flex;
     justify-content: center;
 }
-
 .pf-footer {
+    margin: 0;
+    text-align: right;
     color: #181D31;
+    font-size: 20px;
+    letter-spacing: 1px;
 }
