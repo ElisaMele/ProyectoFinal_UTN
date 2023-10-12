@@ -83,9 +83,8 @@ h2 {
 }
 
 .grid-item {
-    flex: 1;
-    max-width: 350px; 
-    height: 400px; 
+    max-width: 400px; 
+    height: 450px; 
     background-color: #E6DDC4;
     border: 5px solid #678983;
     box-sizing: border-box;
@@ -109,15 +108,14 @@ h2 {
 }
 
 .card-text {
-    font-size: 16px;
+    color: #181D31;
+    font-size: 20px;
     margin: 1.5rem 1rem;
 }
 
 .card-btn1 {
-    display: block;
     background-color: #181D31;
     color: white;
-    margin: 2.5rem auto;
     padding: 8px 30px;
     font-size: 20px;
     border: none;
@@ -127,10 +125,8 @@ h2 {
 }
 
 .card-btn2 {
-    display: block;
     background-color: #181D31;
     color: white;
-    margin: 5.2rem auto;
     padding: 8px 30px;
     font-size: 20px;
     border: none;
