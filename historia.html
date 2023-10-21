@@ -95,23 +95,25 @@
 
     </section>
 
-    <section>
+    <section class="center">
         <h2 class="title-video">Un breve video para complementar lo visto</h2>
-        <div class="video">
-            <video class="vd" controls poster="imagenes/img-video.jpg">
+        <div class="container">
+            <video id="video" poster="imagenes/img-video.jpg">
                 <source src="video/historia-Comp.mp4" type="video/mp4">
                 <source src="video/historia-Comp.ogv" type="video/ogv">
             </video>
 
             <div class="barra-rep">
-                <button onclick="inicioVideo()">PLAY</button>
-                <button onclick="pausa()">PAUSA</button>
-                <div class="duracion">
-                    <p>Duracion video <span class="tiempo"></span></p>
-                </div>
+                <button onclick="inicioVideo()"><img src="imagenes/play.svg" alt="boton play"></button>
+                <button onclick="pausaVideo()"><img src="imagenes/pausa.svg" alt="boton pausa"></button>
+
+                <p>Duracion video <span class="tiempo"></span></p>
+
             </div>
         </div>
     </section>
+
+    <script src="video.js"></script>
 
 </body>
 

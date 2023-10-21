@@ -107,31 +107,47 @@ h2:last-of-type {
     width: calc(100% - 20px);
 }
 
-.video {
-    background-color: #1D1D1D;
-    width: fit-content;
-}
-
 .title-video {
     margin-bottom: -70px;
 }
 
-.vd {
-    width: 800px;
-    border: 6px solid black;
+.center {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.container {
+    background-color: #1D1D1D;
+    width: fit-content;
+    margin-top: 20px;
+}
+
+#video {
+    width: 100%;
+    width: 950px;
 }
 
 .barra-rep {
     display: flex;
+    justify-content: flex-start;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
     padding: 15px;
+    width: 100%;
+}
+.barra-rep button {
+    margin-right: 20px;
+    border-radius: 10px;
+    padding: 10px 30px;
+    box-shadow: 2px 2px #678983;
 }
 
-button {
-    border-radius: 5px;
-    padding: 5px;
-    box-shadow: 2px 2px #678983;
+.barra-rep p {
+    margin-left: auto;
+    margin-bottom: 0;
 }
 
 button:active {
