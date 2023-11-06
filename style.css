@@ -48,6 +48,33 @@ header .btn button {
     transform: translate(2px, 3px);
 }
 
+.color-crema {
+    animation: movimiento 1.5s ease-in;
+}
+
+@keyframes movimiento {
+    from {
+        transform: translateY(-50%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+.color-azul {
+    animation: movimiento2 1.7s ease-in;
+}
+
+@keyframes movimiento2 {
+    from {
+        transform: translateY(-90%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
 .home {
     width: 100%;
     height: 78vh;
@@ -143,7 +170,6 @@ h1 {
     box-shadow: none;
     transform: translate(3px, 3px);
 }
-
 
 .footer {
     background-color: #678983;
