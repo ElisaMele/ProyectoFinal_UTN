@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="juego.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
     <link rel="icon" href="imagenes/logo.png" type="image/icon">
     <title>Proyecto Final</title>
 </head>
@@ -19,11 +20,15 @@
         <nav id="navbar">
             <a href="index.html">
                 <svg>
-                    <path class="color-crema" d="M 100 20 C 120 0, 140 0, 130 20" stroke="#F0E9D2" stroke-width="2" fill="transparent"></path>
-                    <path class="color-crema" d="M 130 20 C 105 60, 180 30, 150 50" stroke="#F0E9D2" stroke-width="2" fill="transparent"></path>
+                    <path class="color-crema" d="M 100 20 C 120 0, 140 0, 130 20" stroke="#F0E9D2" stroke-width="2"
+                        fill="transparent"></path>
+                    <path class="color-crema" d="M 130 20 C 105 60, 180 30, 150 50" stroke="#F0E9D2" stroke-width="2"
+                        fill="transparent"></path>
                     <ellipse class="color-crema" cx="150" cy="56" rx="7" ry="10" fill="#F0E9D2"></ellipse>
-                    <line class="color-crema" x1="150" y1="46" x2="150" y2="52" stroke="#495579" stroke-width="2"></line>
-                    <line class="color-crema" x1="143" y1="53" x2="157" y2="53" stroke="#495579" stroke-width="2"></line>
+                    <line class="color-crema" x1="150" y1="46" x2="150" y2="52" stroke="#495579" stroke-width="2">
+                    </line>
+                    <line class="color-crema" x1="143" y1="53" x2="157" y2="53" stroke="#495579" stroke-width="2">
+                    </line>
                     <rect class="color-crema" x="55" y="0" rx="5" width="60" height="35" fill="#F0E9D2"></rect>
                     <rect class="color-azul" x="60" y="5" width="50" height="25" rx="5" fill="#495579"></rect>
                     <polygon class="color-crema" points="60 40, 110 40, 125 56, 45 56" fill="#F0E9D2"></polygon>
@@ -50,9 +55,33 @@
 
     <h2 class="titulo-armemos">Armemos el rompecabezas y veamos que imagen es...</h2>
 
-    <section class="content">
+    <section>
+        <div class="contenido-rompecabezas">
+            <div class="caja">
+                <p>Arraste y suelte la imágen aquí</p>
+            </div>
+            <div class="caja">
+                <p>Arraste y suelte la imágen aquí</p>
+            </div>
+            <div class="caja">
+                <p>Arraste y suelte la imágen aquí</p>
+            </div>
+        </div>
+
+
+        <div class="imagenes">
+            <img src="imagenes/rompe2.png" alt="rompecabezas2">
+            <img src="imagenes/Rompe1.png" alt="rompecabezas1">
+            <img src="imagenes/Rompe3.png" alt="rompecabezas3">
+        </div>
+        <div class="reinicio">
+            <button class="btn-reinicio">Reiniciar</button>
+        </div>
+
 
     </section>
+
+    <script src="./juego.js"></script>
 
 </body>
 
