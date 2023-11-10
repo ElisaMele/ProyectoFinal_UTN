@@ -110,13 +110,14 @@ h1 {
 
 .grid {
     display: flex;
+    justify-content: space-between;
     gap: 15rem;
     margin: 20px;
 }
 
 .grid-item {
-    max-width: 400px; 
-    height: 450px; 
+    max-width: 350px; 
+    height: 400px; 
     background-color: #E6DDC4;
     border: 5px solid #678983;
     box-sizing: border-box;
@@ -124,6 +125,10 @@ h1 {
     flex-direction: column;
     align-items: center;
     text-align: center;
+}
+
+.card {
+    position: relative;
 }
 
 .card-img {
@@ -141,30 +146,28 @@ h1 {
 
 .card-text {
     color: #181D31;
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 15px;
+    font-weight: 600;
     margin: 1.5rem 1rem;
 }
 
-.card-btn1 {
+.card-btn1, .card-btn2 {
     background-color: #181D31;
-    color: white;
+    color: #F0F5E4;
     padding: 8px 30px;
-    font-size: 20px;
+    font-size: 17px;
     border: none;
-    border-radius: 12px;
+    border-radius: 10px;
     box-shadow: 3px 3px #678983;
     cursor: pointer;
 }
+
+.card-btn1 {
+    margin-top: 30px;
+}
+
 .card-btn2 {
-    background-color: #181D31;
-    color: white;
-    padding: 8px 30px;
-    font-size: 20px;
-    border: none;
-    border-radius: 5px;
-    box-shadow: 3px 3px #678983;
-    cursor: pointer;
+    margin-top: 50px;
 }
 
 .card-btn1:active, .card-btn2:active {
@@ -180,6 +183,7 @@ h1 {
     align-items: center;
     padding: 3.2rem;
 }
+
 .logo-content {
     display: flex;
     align-items: center;
