@@ -1,42 +1,51 @@
 
 .title {
-    width: 60%;
+    width: 100%;
     color: #678983;
-    font-size: 2.8rem;
+    font-size: 2.5rem;
     text-align: center;
     text-shadow: 2px 2px black;
 }
 
 .title:last-of-type {
-    padding: 4rem;
+    padding: 2rem;
 }
 
 .content-historia {
-    margin: 80px;
+    padding-top: 10px;
+    margin: 60px;
 }
 
 .text {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    margin: 90px 20px;
+    margin: 90px 25px;
 }
 
 .paragraph,
-.paragraph2 {
+.paragraph2,
+.paragraph3 {
     color: #E6DDC4;
-    font-size: 1.1rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.paragraph {
     width: calc(40% - 10px);
 }
 
 .paragraph2 {
-    width: calc(100% - 20px);
+    width: calc(80% - 20px);
 }
 
 .title-video {
-    margin-bottom: -70px;
-}
+    color: #678983;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px black;
+    padding-top: 150px;
 
+}
 .center {
     text-align: center;
     display: flex;
@@ -45,17 +54,15 @@
 }
 
 .container {
-    background-color: #1D1D1D;
     width: fit-content;
-    margin-top: 20px;
-    border: 6px solid black;
-
+    border: 5px solid black;
+    background-color: black;
 }
 
 #video {
     width: 100%;
     width: 950px;
-    border-bottom: 6px solid black;
+    border-bottom: 1px solid black;
 }
 
 .barra-rep {
@@ -64,6 +71,8 @@
     gap: 25px;
     padding: 15px 5px;
     width: 100%;
+    background-color: #1D1D1D;
+    border-radius: 10px;
 }
 
 .barra-rep button {
@@ -75,8 +84,9 @@
 
 .barra-rep p {
     margin-left: auto;
-    margin-bottom: 0;
+    padding-right: 10px;
     color:#F0F0F0;
+    font-weight: 500;
 }
 
 button:active {

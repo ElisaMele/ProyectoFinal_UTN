@@ -13,7 +13,7 @@
     align-items: center;
 }
 
-.caja {
+.caja1, .caja2, .caja3 {
     width: 280px;
     height: 420px;
     background-color: #808080;
@@ -25,11 +25,16 @@
     align-items: center;
 }
 
-.caja > p {
+.caja1 img, .caja2 img, .caja3 img {
+    width: 100%;
+    height: 100%;
+}
+
+.caja1, .caja2, .caja3 > p {
     font-weight: 600;
 }
 
-.caja:hover {
+.caja1:hover, .caja2:hover, .caja3:hover {
     background-color: #1C1C1C;
 }
 
@@ -51,6 +56,9 @@
 .btn-reinicio {
     padding: 10px 100px;
     border-radius: 8px;
+    font-weight: 600;
+    color: #181D31;
+    background-color: #E6DDC4;
     box-shadow: 2px 3px #678983;
 }
 

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -57,25 +57,28 @@
 
     <section>
         <div class="contenido-rompecabezas">
-            <div class="caja">
-                <p>Arraste y suelte la imágen aquí</p>
+            <div class="caja1" ondragover="eventoDragOver(event)" ondrop="eventoDrop(event)">
+                <p>Arraste y suelte la imagen aquí</p>
             </div>
-            <div class="caja">
-                <p>Arraste y suelte la imágen aquí</p>
+            <div class="caja2" ondragover="eventoDragOver(event)" ondrop="eventoDrop(event)">
+                <p>Arraste y suelte la imagen aquí</p>
             </div>
-            <div class="caja">
-                <p>Arraste y suelte la imágen aquí</p>
+            <div class="caja3" ondragover="eventoDragOver(event)" ondrop="eventoDrop(event)">
+                <p>Arraste y suelte la imagen aquí</p>
             </div>
         </div>
-
 
         <div class="imagenes">
-            <img src="imagenes/rompe2.png" alt="rompecabezas2">
-            <img src="imagenes/Rompe1.png" alt="rompecabezas1">
-            <img src="imagenes/Rompe3.png" alt="rompecabezas3">
+            <img id="rompe1" class="imagen1" src="imagenes/rompe2.png" alt="rompecabezas2" draggable="true"
+                ondragstart="eventoDragStart(event)">
+            <img id="rompe2" class="imagen2" src="imagenes/Rompe1.png" alt="rompecabezas1" draggable="true"
+                ondragstart="eventoDragStart(event)">
+            <img id="rompe3" class="imagen3" src="imagenes/Rompe3.png" alt="rompecabezas3" draggable="true"
+                ondragstart="eventoDragStart(event)">
         </div>
+
         <div class="reinicio">
-            <button class="btn-reinicio">Reiniciar</button>
+            <button class="btn-reinicio" onclick="reiniciarJuego()">Reiniciar</button>
         </div>
 
 
